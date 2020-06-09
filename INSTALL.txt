@@ -1,0 +1,8 @@
+The given system is intended to be a Data Science library that allows users to manipulate and work with both one-dimensional and multi-dimensional arrays. 
+The mli file gives a module signature of this multi-dimensional array which is implemented by us using a variant that is either a Vector of 'a list or a Matrix of 'a list list.
+This version allows functionality like creating, indexing and slicing these arrays while some more involved linear algebra functionality is provided as well as saving and loading data from csv and txt files is provided..
+We have tested the functions written in tests.ml and pass all the tests. We have also written documentation for all our functions. 
+
+Instructions on how to install and build system : 
+1. Running make build  to build the system 
+2. Running make test to run all the tests in test.ml (currently passing all 50)

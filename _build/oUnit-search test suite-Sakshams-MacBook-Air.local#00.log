@@ -1,0 +1,428 @@
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Runner: processes
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Chooser: simple
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration suite_name = "search test suite"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration cache_filename = "/Users/sakmohan20/Desktop/DataCaml/_build/oUnit-$(suite_name).cache"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration run_gc_full_major = "true"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration display = "true"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration results_style_1_X = "false"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration testdata_dir = "none"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration health_check_interval = "1."
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration verbose = "false"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration chooser = "simple"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration output_html_dir = "none"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration processes_kill_period = "5."
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration runner = "processes"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration shards = "2"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration processes_grace_period = "5."
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration log_encoding = "utf-8"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration output_junit_file = "none"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration ci = "false"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Configuration output_file = "/Users/sakmohan20/Desktop/DataCaml/_build/oUnit-$(suite_name)-$(shard_id).log"
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Using 2 workers maximum.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Starting worker number Sakshams-MacBook-Air.local#01.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Worker Sakshams-MacBook-Air.local#01 started.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Starting worker number Sakshams-MacBook-Air.local#02.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Worker Sakshams-MacBook-Air.local#02 started.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:1:Shape of empty Multiarray should be (0,0), search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:1:Shape of empty Multiarray should be (0,0), search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:1:Shape of empty Multiarray should be (0,0).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:1:Shape of empty Multiarray should be (0,0), search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:0:is_empty should return true for empty is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:1:Shape of empty Multiarray should be (0,0), search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:1:Shape of empty Multiarray should be (0,0), search test suite:0:is_empty should return true for empty.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1), search test suite:1:Shape of empty Multiarray should be (0,0).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1), search test suite:1:Shape of empty Multiarray should be (0,0).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:1:Shape of empty Multiarray should be (0,0) is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1), search test suite:1:Shape of empty Multiarray should be (0,0).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:1:Shape of empty Multiarray should be (0,0).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1), search test suite:1:Shape of empty Multiarray should be (0,0).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:3:Shape of rectangular matrix rect_sample should be (2,3), search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:3:Shape of rectangular matrix rect_sample should be (2,3).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:3:Shape of rectangular matrix rect_sample should be (2,3), search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1) is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:3:Shape of rectangular matrix rect_sample should be (2,3), search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:3:Shape of rectangular matrix rect_sample should be (2,3), search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:4:len non_rect is 2, search test suite:3:Shape of rectangular matrix rect_sample should be (2,3).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:4:len non_rect is 2.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:4:len non_rect is 2, search test suite:3:Shape of rectangular matrix rect_sample should be (2,3).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:3:Shape of rectangular matrix rect_sample should be (2,3) is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:4:len non_rect is 2, search test suite:3:Shape of rectangular matrix rect_sample should be (2,3).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:3:Shape of rectangular matrix rect_sample should be (2,3).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:4:len non_rect is 2, search test suite:3:Shape of rectangular matrix rect_sample should be (2,3).
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros, search test suite:4:len non_rect is 2.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros, search test suite:4:len non_rect is 2.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:4:len non_rect is 2 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros, search test suite:4:len non_rect is 2.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:4:len non_rect is 2.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros, search test suite:4:len non_rect is 2.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:6:ones_sample creates a 2 x 4 matrix of ones, search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:6:ones_sample creates a 2 x 4 matrix of ones.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:6:ones_sample creates a 2 x 4 matrix of ones, search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:6:ones_sample creates a 2 x 4 matrix of ones, search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:6:ones_sample creates a 2 x 4 matrix of ones, search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:7:Indexing 0 returns first element of 1-d array b, search test suite:6:ones_sample creates a 2 x 4 matrix of ones.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:7:Indexing 0 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:7:Indexing 0 returns first element of 1-d array b, search test suite:6:ones_sample creates a 2 x 4 matrix of ones.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:6:ones_sample creates a 2 x 4 matrix of ones is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:7:Indexing 0 returns first element of 1-d array b, search test suite:6:ones_sample creates a 2 x 4 matrix of ones.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:6:ones_sample creates a 2 x 4 matrix of ones.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:7:Indexing 0 returns first element of 1-d array b, search test suite:6:ones_sample creates a 2 x 4 matrix of ones.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:8:Indexing 4 returns first element of 1-d array b, search test suite:7:Indexing 0 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:8:Indexing 4 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:8:Indexing 4 returns first element of 1-d array b, search test suite:7:Indexing 0 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:7:Indexing 0 returns first element of 1-d array b is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:8:Indexing 4 returns first element of 1-d array b, search test suite:7:Indexing 0 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:7:Indexing 0 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:8:Indexing 4 returns first element of 1-d array b, search test suite:7:Indexing 0 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:9:Indexing -1 returns last element of 1-d array b, search test suite:8:Indexing 4 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:9:Indexing -1 returns last element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:9:Indexing -1 returns last element of 1-d array b, search test suite:8:Indexing 4 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:8:Indexing 4 returns first element of 1-d array b is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:9:Indexing -1 returns last element of 1-d array b, search test suite:8:Indexing 4 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:8:Indexing 4 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:9:Indexing -1 returns last element of 1-d array b is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:9:Indexing -1 returns last element of 1-d array b, search test suite:8:Indexing 4 returns first element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:9:Indexing -1 returns last element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:   parameter doesn't affect result, search test suite:9:Indexing -1 returns last element of 1-d array b.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:   parameter doesn't affect result.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample, search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:   parameter doesn't affect result.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample, search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:   parameter doesn't affect result.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:   parameter doesn't affect result is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample, search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:   parameter doesn't affect result.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:   parameter doesn't affect result.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample, search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:   parameter doesn't affect result.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element, search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element, search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     entire array except for last element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element, search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:12:Slicing with step size 1 and end beyond array is the entire array is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element, search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element, search test suite:12:Slicing with step size 1 and end beyond array is the entire array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     entire array except for last element is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element, search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     entire array except for last element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element, search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I:     the entire array except for last and first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     and last elements, search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     and last elements.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     and last elements, search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I:     the entire array except for last and first element is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     and last elements is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     and last elements, search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I:     the entire array except for last and first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     and last elements.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     and last elements, search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:17:to list_1D converts multiarray to list, search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:17:to list_1D converts multiarray to list.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:17:to list_1D converts multiarray to list, search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     first element is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:17:to list_1D converts multiarray to list, search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I:     first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:17:to list_1D converts multiarray to list is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:17:to list_1D converts multiarray to list, search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     first element.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:17:to list_1D converts multiarray to list.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:18:flatten converts 2-d array rect_sample into 1-d array, search test suite:17:to list_1D converts multiarray to list.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:19:arrange 0 returns array representing [0], search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:19:arrange 0 returns array representing [0].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:19:arrange 0 returns array representing [0], search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:19:arrange 0 returns array representing [0] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:19:arrange 0 returns array representing [0], search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:18:flatten converts 2-d array rect_sample into 1-d array is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:19:arrange 0 returns array representing [0].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:19:arrange 0 returns array representing [0], search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:20:arrange 4 is array representing [0;1;2;3;4], search test suite:18:flatten converts 2-d array rect_sample into 1-d array.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:20:arrange 4 is array representing [0;1;2;3;4].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:21:max b is 5, search test suite:20:arrange 4 is array representing [0;1;2;3;4].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:21:max b is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:21:max b is 5, search test suite:20:arrange 4 is array representing [0;1;2;3;4].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:20:arrange 4 is array representing [0;1;2;3;4] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:21:max b is 5, search test suite:20:arrange 4 is array representing [0;1;2;3;4].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:20:arrange 4 is array representing [0;1;2;3;4].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:21:max b is 5, search test suite:20:arrange 4 is array representing [0;1;2;3;4].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:21:max b is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:22:max rect_sample is 5, search test suite:21:max b is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:21:max b is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:22:max rect_sample is 5, search test suite:21:max b is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:22:max rect_sample is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:23:max non_rect is 5, search test suite:22:max rect_sample is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:23:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:23:max non_rect is 5, search test suite:22:max rect_sample is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:22:max rect_sample is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:23:max non_rect is 5, search test suite:22:max rect_sample is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:22:max rect_sample is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:23:max non_rect is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:23:max non_rect is 5, search test suite:22:max rect_sample is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:23:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:24:max non_rect is 5, search test suite:23:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:24:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:25:max zeros_sample is 0, search test suite:24:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:25:max zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:25:max zeros_sample is 0, search test suite:24:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:24:max non_rect is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:25:max zeros_sample is 0, search test suite:24:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:24:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:25:max zeros_sample is 0 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:25:max zeros_sample is 0, search test suite:24:max non_rect is 5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:25:max zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:26:min b is 1, search test suite:25:max zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:27:min rect_sample is 1, search test suite:26:min b is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:26:min b is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:27:min rect_sample is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:27:min rect_sample is 1, search test suite:26:min b is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:26:min b is 1 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:27:min rect_sample is 1 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:27:min rect_sample is 1, search test suite:26:min b is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:26:min b is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:27:min rect_sample is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:27:min rect_sample is 1, search test suite:26:min b is 1.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5], search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5], search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5], search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:28:min zeros_sample is 0 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5], search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:30:replace b 5 0 105 is b itself, search test suite:28:min zeros_sample is 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:30:replace b 5 0 105 is b itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:31:sum a is 15, search test suite:30:replace b 5 0 105 is b itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:31:sum a is 15.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:31:sum a is 15, search test suite:30:replace b 5 0 105 is b itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:30:replace b 5 0 105 is b itself is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:31:sum a is 15 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:31:sum a is 15, search test suite:30:replace b 5 0 105 is b itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:30:replace b 5 0 105 is b itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:31:sum a is 15.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:31:sum a is 15, search test suite:30:replace b 5 0 105 is b itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]], search test suite:32:sum non_rect is 13.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:32:sum non_rect is 13.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]], search test suite:32:sum non_rect is 13.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:32:sum non_rect is 13 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]], search test suite:32:sum non_rect is 13.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:32:sum non_rect is 13.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]], search test suite:32:sum non_rect is 13.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:35:dot b b is 55, search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:35:dot b b is 55.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:35:dot b b is 55, search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:35:dot b b is 55, search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:35:dot b b is 55, search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:35:dot b b is 55 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]], search test suite:35:dot b b is 55.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:35:dot b b is 55.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]], search test suite:35:dot b b is 55.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]], search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]], search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]], search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]], search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:38:all_close b c_mul 5 is false, search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:38:all_close b c_mul 5 is false.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:39:all_close b c_mul 10 is true, search test suite:38:all_close b c_mul 5 is false.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:39:all_close b c_mul 10 is true.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:39:all_close b c_mul 10 is true, search test suite:38:all_close b c_mul 5 is false.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:38:all_close b c_mul 5 is false is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:39:all_close b c_mul 10 is true is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:39:all_close b c_mul 10 is true, search test suite:38:all_close b c_mul 5 is false.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:38:all_close b c_mul 5 is false.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:39:all_close b c_mul 10 is true.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:39:all_close b c_mul 10 is true, search test suite:38:all_close b c_mul 5 is false.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:41:sort float_sample is float_sample itself, search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:41:sort float_sample is float_sample itself, search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:41:sort float_sample is float_sample itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:41:sort float_sample is float_sample itself, search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:40:create works with floats is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:41:sort float_sample is float_sample itself is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:41:sort float_sample is float_sample itself, search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:41:sort float_sample is float_sample itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:41:sort float_sample is float_sample itself, search test suite:40:create works with floats.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:43:median b is 3, search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:43:median b is 3.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:43:median b is 3, search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:43:median b is 3 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:43:median b is 3, search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:42:mean float_sample is 2.5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:43:median b is 3.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:43:median b is 3, search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:44:norm float_sample is root 30, search test suite:42:mean float_sample is 2.5.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:44:norm float_sample is root 30.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0], search test suite:44:norm float_sample is root 30.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0], search test suite:44:norm float_sample is root 30.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:44:norm float_sample is root 30 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0], search test suite:44:norm float_sample is root 30.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:44:norm float_sample is root 30.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0], search test suite:44:norm float_sample is root 30.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:46:multiply c c is array representing [100;100;100;100;100], search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:47:clip c_mul 5 15 is c_mul itself, search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:47:clip c_mul 5 15 is c_mul itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:47:clip c_mul 5 15 is c_mul itself, search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:47:clip c_mul 5 15 is c_mul itself is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:47:clip c_mul 5 15 is c_mul itself, search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:46:multiply c c is array representing [100;100;100;100;100] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:47:clip c_mul 5 15 is c_mul itself.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:47:clip c_mul 5 15 is c_mul itself, search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20], search test suite:46:multiply c c is array representing [100;100;100;100;100].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Still 2 tests running : search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Start test search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Start test search test suite:49:clip b 3 7 is array representing [3;3;3;4;5].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Still 2 tests running : search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: Test search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: Test search test suite:49:clip b 3 7 is array representing [3;3;3;4;5] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Still 2 tests running : search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#02 I: End test search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#01 I: End test search test suite:49:clip b 3 7 is array representing [3;3;3;4;5].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Still 2 tests running : search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 2 tests running: search test suite:49:clip b 3 7 is array representing [3;3;3;4;5], search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20].
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: 0 tests running: .
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Worker Sakshams-MacBook-Air.local#02 has ended.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Worker Sakshams-MacBook-Air.local#01 has ended.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Used 2 worker during test execution.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Run 25 tests with shard Sakshams-MacBook-Air.local#02.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Run 25 tests with shard Sakshams-MacBook-Air.local#01.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Check health of shard Sakshams-MacBook-Air.local#02, 1 times.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Check health of shard Sakshams-MacBook-Air.local#01, 1 times.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: ==============
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Summary:
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:49:clip b 3 7 is array representing [3;3;3;4;5] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:48:clip c_mul 20 100 is array representing [20;20;20;20;20] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:46:multiply c c is array representing [100;100;100;100;100] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:47:clip c_mul 5 15 is c_mul itself is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:45:power float_sample 2.0 is array representing [1.0; 4.0; 9.0; 16.0] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:44:norm float_sample is root 30 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:42:mean float_sample is 2.5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:43:median b is 3 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:41:sort float_sample is float_sample itself is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:40:create works with floats is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:39:all_close b c_mul 10 is true is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:38:all_close b c_mul 5 is false is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:37:constant 2 3 15 is array representing [[15;15;15];[15;15;15]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:36:replace add_sample 1 0 105 is array representing [[1;2;3];[105;2;4]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:35:dot b b is 55 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:34:sub add_sample rect_sample is the array representing [[0;0;0];[0;0;0]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:33:add add_sample rect_sample is the array representing [[2;4;6];[10;4;8]] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:32:sum non_rect is 13 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:31:sum a is 15 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:30:replace b 5 0 105 is b itself is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:28:min zeros_sample is 0 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:29:replace b 1 0 105 is the array representing [1;105;3;4;5] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:27:min rect_sample is 1 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:26:min b is 1 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:25:max zeros_sample is 0 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:24:max non_rect is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:23:max non_rect is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:22:max rect_sample is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:21:max b is 5 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:20:arrange 4 is array representing [0;1;2;3;4] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:18:flatten converts 2-d array rect_sample into 1-d array is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:19:arrange 0 returns array representing [0] is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:17:to list_1D converts multiarray to list is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:16:Slicing with step size 2 and end as the third element is the 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     first element is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:15:Slicing with step size 2 and end beyond array are the first, third 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     and last elements is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:14:Slicing with step size 1, end just before array and start equal to 1 is  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     the entire array except for last and first element is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:13:Slicing with step size 1 and end just before array is the  
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:     entire array except for last element is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:12:Slicing with step size 1 and end beyond array is the entire array is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:11:Indexing 0 0 returns first element of 2-d array rect_sample is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:10:Indexing a 1-D array while changing the cols 
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I:   parameter doesn't affect result is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:9:Indexing -1 returns last element of 1-d array b is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:8:Indexing 4 returns first element of 1-d array b is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:7:Indexing 0 returns first element of 1-d array b is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:6:ones_sample creates a 2 x 4 matrix of ones is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:5:zeros_sample creates a 2 x 2 matrix of zeros is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:4:len non_rect is 2 is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:3:Shape of rectangular matrix rect_sample should be (2,3) is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:2:Shape of non-rectangular matrix non_rect should be (2,-1) is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:1:Shape of empty Multiarray should be (0,0) is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Test search test suite:0:is_empty should return true for empty is successful.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Ran: 50 tests in: 0.15 seconds.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Cases: 50.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Tried: 50.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Errors: 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Failures: 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Skip: 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Todo: 0.
+2020-05-10T16:05:31+00:00 Sakshams-MacBook-Air.local#00 I: Timeout: 0.

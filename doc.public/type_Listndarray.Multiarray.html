@@ -1,0 +1,70 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Listndarray" rel="Chapter" href="Listndarray.html"><title>Listndarray.Multiarray</title>
+</head>
+<body>
+<code class="code"><span class="keyword">sig</span><br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;is_empty&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;len&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;shape&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;*&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;zeros&nbsp;:&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;ones&nbsp;:&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;constant&nbsp;:&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;create&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;list&nbsp;list&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;index&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;slice&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;*&nbsp;int&nbsp;*&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;to_list_1D&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;list<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;to_list_2D&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;list&nbsp;list<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;flatten&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;arrange&nbsp;:&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;max&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;min&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;replace&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;sum&nbsp;:&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;add&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;subtract&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;dot&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;multiply&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;divide&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;power&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;square_root&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;logarithm&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;exponentiate&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;sort&nbsp;:&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="keywordsign">'</span>a&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;median&nbsp;:&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;mean&nbsp;:&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;norm&nbsp;:&nbsp;float&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;float<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;all_close&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;clip&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;save&nbsp;:&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;load&nbsp;:&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;bool&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;int&nbsp;<span class="constructor">Listndarray</span>.<span class="constructor">Multiarray</span>.t<br>
+<span class="keyword">end</span></code></body></html>

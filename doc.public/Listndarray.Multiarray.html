@@ -1,0 +1,311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Listndarray.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="Listndarray" rel="Chapter" href="Listndarray.html"><title>Listndarray.Multiarray</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="Listndarray.html" title="Listndarray">Up</a>
+&nbsp;</div>
+<h1>Module type <a href="type_Listndarray.Multiarray.html">Listndarray.Multiarray</a></h1>
+
+<pre><span id="MODULETYPEMultiarray"><span class="keyword">module type</span> Multiarray</span> = <code class="code">sig</code> <a href="Listndarray.Multiarray.html">..</a> <code class="code">end</code></pre><hr width="100%">
+
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type">'a</code> t</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>type t representing the 'a data</p>
+</div>
+</div>
+
+
+<pre><span id="VALis_empty"><span class="keyword">val</span> is_empty</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_empty m</code> is <code class="code">true</code> iff <code class="code">m</code> is a multiarray containing no data</p>
+</div>
+</div>
+
+<pre><span id="VALlen"><span class="keyword">val</span> len</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">len m</code> is the number of rows of multiarray <code class="code">m</code>.
+       <code class="code">num_rows m</code> is <code class="code">0</code> if <code class="code">is_empty m</code> is true</p>
+</div>
+</div>
+
+<pre><span id="VALshape"><span class="keyword">val</span> shape</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int * int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">shape m</code> is a tuple representing the shape of the multiarray <code class="code">m</code>.
+       <code class="code">shape m</code> is <code class="code">([num_rows m], [num_cols m])</code> if <code class="code">num_cols</code> in each row 
+       of <code class="code">m</code> is the same. <code class="code">shape m</code> is <code class="code">([num_rows m], [-1])</code> 
+       if <code class="code">num_cols</code> in each row of <code class="code">m</code> is not the same.</p>
+</div>
+</div>
+
+<pre><span id="VALzeros"><span class="keyword">val</span> zeros</span> : <code class="type">int -> int -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">zeros m n</code> is a rectangular int multiarray of zeros of shape <code class="code">(m, n)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALones"><span class="keyword">val</span> ones</span> : <code class="type">int -> int -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">ones m n</code> is a rectangular int multiarray of ones of shape <code class="code">(m, n)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALconstant"><span class="keyword">val</span> constant</span> : <code class="type">int -> int -> int -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">constant m n val</code> is a rectangular int multiarray of <code class="code">vals</code>
+       of shape <code class="code">(m, n)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcreate"><span class="keyword">val</span> create</span> : <code class="type">'a list list -> bool -> 'a <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">create lst true</code> is a two-dimesnional multiarray representing the 
+      elements of list <code class="code">lst</code>. 
+      <code class="code">create lst false</code> is a one-dimensional multiarray representing the 
+      elements of <code class="code">List.flatten lst</code>.
+      <code class="code">create []</code> |&gt; is_empty is true.</p>
+</div>
+</div>
+
+<pre><span id="VALindex"><span class="keyword">val</span> index</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int -> int -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">index m row col</code> is the data item represented at index <code class="code">row</code>
+      <code class="code">col</code> in multiarray <code class="code">m</code>. 
+      If <code class="code">m</code> is a one-dimensional multi-array then the expression placed
+      in <code class="code">col</code> is ignored and <code class="code">index m row</code> is evaluated. 
+      Requires: m is a multiarray, row and col are ints
+      Raises: Failure if <code class="code">row</code> or <code class="code">col</code> is beyond the number of items
+              stored in the  multiarray or if <code class="code">m</code> is empty</p>
+</div>
+</div>
+
+<pre><span id="VALslice"><span class="keyword">val</span> slice</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -><br>       int * int * int -> int * int * int -> 'a <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">slice m (startrow, stoprow, steprow) (startcol, stopcol, stepcol)</code> is
+      multiarray m sliced from row <code class="code">startrow</code> to row <code class="code">startcol</code> with a 
+      <code class="code">steprow</code> increment and from column <code class="code">startcol</code> to column <code class="code">stepcol</code> 
+      with a <code class="code">stepcol</code> increment. 
+      If <code class="code">m</code> is a one-dimensional multi-array then 
+      <code class="code">(startcol, stopcol, stepcol)</code> is simply ignored and 
+      <code class="code">slice m (startrow, stoprow, steprow)</code> is evaluated. 
+      Requires: <code class="code">m</code> is a multiarray
+      Raises: Failure if <code class="code">steprow</code> is 0.</p>
+</div>
+</div>
+
+<pre><span id="VALto_list_1D"><span class="keyword">val</span> to_list_1D</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> 'a list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">to_list_1D m</code> is a list representing the elements of multiarray
+      <code class="code">m</code>. If <code class="code">m</code> is a two-dimensional multi-array then <code class="code">to_list_1D m</code>
+      is the flattened representation of <code class="code">m</code></p>
+</div>
+</div>
+
+<pre><span id="VALto_list_2D"><span class="keyword">val</span> to_list_2D</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> 'a list list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">to_list_1D m</code> is a list of lists representing the elements of multiarray
+      <code class="code">m</code>. If <code class="code">m</code> is a one-dimensional multi-array then <code class="code">to_list_2D m</code>
+      is simply <code class="code">[to_list_1D m]</code></p>
+</div>
+</div>
+
+<pre><span id="VALflatten"><span class="keyword">val</span> flatten</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> 'a <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">flatten m</code> is a flattened representation of multiarray <code class="code">m</code>
+      Examples:</p>
+<ul>
+<li><code class="code">flatten [[1;2]]</code> is <code class="code">1;2</code></li>
+</ul>
+</div>
+</div>
+
+<pre><span id="VALarrange"><span class="keyword">val</span> arrange</span> : <code class="type">int -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">arrange n</code> is an int multiarray representing all the elements from 
+      0 to <code class="code">n</code> in ascending order.</p>
+</div>
+</div>
+
+<pre><span id="VALmax"><span class="keyword">val</span> max</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">max m</code> is the maximium value based on the Standard compare function
+      of the multiarray <code class="code">m</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALmin"><span class="keyword">val</span> min</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> 'a</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">min m</code> is the minimum value based on the Standard compare function
+      of the multiarray <code class="code">m</code></p>
+</div>
+</div>
+
+<pre><span id="VALreplace"><span class="keyword">val</span> replace</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -><br>       int -> int -> 'a -> 'a <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">replace m index elt</code> is a multiarray representing all the elements 
+      of multiarray <code class="code">m</code> except element at index <code class="code">index</code> in <code class="code">m</code>, which is 
+      replaced by valye <code class="code">elt</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALsum"><span class="keyword">val</span> sum</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">sum m</code> is the sum of all elements in the int multiarray <code class="code">m.</code></p>
+</div>
+</div>
+
+<pre><span id="VALadd"><span class="keyword">val</span> add</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -><br>       int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add m1 m2</code> is an int multiarray representing the element-wise 
+      addition of int multiarrays <code class="code">m1</code> and <code class="code">m2</code>
+      Raises: Failure if <code class="code">shape m1</code> &lt;&gt; <code class="code">shape m2</code>
+              Failure if <code class="code">m1</code> and <code class="code">m2</code> are of different dimensions</p>
+</div>
+</div>
+
+<pre><span id="VALsubtract"><span class="keyword">val</span> subtract</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -><br>       int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">subtract m1 m2</code> is an int multiarray representing the element-wise 
+      subtraction of int multiarrays <code class="code">m1</code> and <code class="code">m2</code>
+      Raises: Failure if <code class="code">shape m1</code> &lt;&gt; <code class="code">shape m2</code>
+              Failure if <code class="code">m1</code> and <code class="code">m2</code> are of different dimensions</p>
+</div>
+</div>
+
+<pre><span id="VALdot"><span class="keyword">val</span> dot</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">dot m1 m2</code> is the dot product of the two one-dimensional int multiarrays 
+      represented by <code class="code">m1</code> and <code class="code">m2</code>
+       Raises: Failure if <code class="code">shape m1</code> &lt;&gt; <code class="code">shape m2</code>
+               Failure if either <code class="code">m1</code> or <code class="code">m2</code> is a two-dimensional multiarray</p>
+</div>
+</div>
+
+<pre><span id="VALmultiply"><span class="keyword">val</span> multiply</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -><br>       int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">multiply m1 m2</code> is an int multiarray representing the element-wise 
+      multiplication of int multiarrays <code class="code">m1</code> and <code class="code">m2</code>
+      Raises: Failure if <code class="code">shape m1</code> &lt;&gt; <code class="code">shape m2</code> 
+              Failure if <code class="code">m1</code> and <code class="code">m2</code> are of different dimensions</p>
+</div>
+</div>
+
+<pre><span id="VALdivide"><span class="keyword">val</span> divide</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -><br>       int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">divide m1 m2</code> is an int multiarray representing the element-wise 
+      division of int multiarrays <code class="code">m1</code> and <code class="code">m2</code>
+      Raises: Failure if <code class="code">shape m1</code> &lt;&gt; <code class="code">shape m2</code>
+              Failure if <code class="code">m1</code> and <code class="code">m2</code> are of different dimensions</p>
+</div>
+</div>
+
+<pre><span id="VALpower"><span class="keyword">val</span> power</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float -> float <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">power m val</code> is a float multiarray representing the element-wise 
+      raise of float multiarray <code class="code">m</code> to the power of <code class="code">val</code></p>
+</div>
+</div>
+
+<pre><span id="VALsquare_root"><span class="keyword">val</span> square_root</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">square_root m val</code> is a float multiarray representing the element-wise
+      square-root of float multiarray <code class="code">m</code></p>
+</div>
+</div>
+
+<pre><span id="VALlogarithm"><span class="keyword">val</span> logarithm</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">logarithm m</code> is a float multiarray representing the element-wise
+      natural logaritm of float multiarray <code class="code">m</code></p>
+</div>
+</div>
+
+<pre><span id="VALexponentiate"><span class="keyword">val</span> exponentiate</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">exponentiate m</code> is a float multiarray representing the element-wise
+      raise of float multiarray <code class="code">m</code> to the power of the natural exponent</p>
+</div>
+</div>
+
+<pre><span id="VALsort"><span class="keyword">val</span> sort</span> : <code class="type">'a <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> 'a <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">sort m</code> is the elements of multiarray <code class="code">m</code> sorted according to the 
+        standard compare function.
+        Requires: <code class="code">m</code> is a one-dimensional multiarray
+        Raises: Failure if <code class="code">m</code> is two-dimensional</p>
+</div>
+</div>
+
+<pre><span id="VALmedian"><span class="keyword">val</span> median</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">median m</code> is the median of the one-dimensional float multiarray
+      represented by <code class="code">m</code>
+       Raises: Failure if <code class="code">m</code> is two-dimensional</p>
+</div>
+</div>
+
+<pre><span id="VALmean"><span class="keyword">val</span> mean</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">mean m</code> is the mean of the one-dimensional float multiarray
+      represented by <code class="code">m</code>
+       Raises: Failure if <code class="code">m</code> is two-dimensional</p>
+</div>
+</div>
+
+<pre><span id="VALnorm"><span class="keyword">val</span> norm</span> : <code class="type">float <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> float</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">norm m</code> is the normalized value of all the elements of the 
+      one-dimensional float multiarray represented by <code class="code">m</code>
+      Raises: Failure if <code class="code">m</code> is two-dimensional</p>
+</div>
+</div>
+
+<pre><span id="VALall_close"><span class="keyword">val</span> all_close</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">all_close m1 m2 limit</code> is a boolean representing whether all elements 
+      of int multiarray <code class="code">m1</code> are within value <code class="code">limit</code> of all the elements 
+      of int multiarray <code class="code">m2</code> and vice-versa. 
+      one-dimensional float multiarray represented by <code class="code">m</code>
+      Raises: Failure if <code class="code">m1</code> and <code class="code">m2</code> are of different dimensions
+              Failure if <code class="code">shape m1</code> &lt;&gt; <code class="code">shape m2</code></p>
+</div>
+</div>
+
+<pre><span id="VALclip"><span class="keyword">val</span> clip</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> int -> int -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">clip m min max</code> is an int mutltiarray representing all the elements of 
+      int multiarray <code class="code">m</code> clipped between values <code class="code">min</code> and <code class="code">max</code>, i.e. if any 
+      element of <code class="code">m</code> is less than min or greater than max based on the standard
+      compare function, then that element is replaced by <code class="code">min</code> and <code class="code">max</code> 
+      respectively.</p>
+</div>
+</div>
+
+<pre><span id="VALsave"><span class="keyword">val</span> save</span> : <code class="type">int <a href="Listndarray.Multiarray.html#TYPEt">t</a> -> string -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">save m path</code> is a unit that saves the int multiarray represented by <code class="code">m</code> 
+       in the path of the local machine given by string <code class="code">path</code>. Supported 
+       file formats are .txt and .csv</p>
+</div>
+</div>
+
+<pre><span id="VALload"><span class="keyword">val</span> load</span> : <code class="type">string -> bool -> int <a href="Listndarray.Multiarray.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">load path istwo</code> is the int multiarray that is converted from the files
+       given by <code class="code">path</code>. Supported file formats are .txt and .csv. If <code class="code">istwo</code> is 
+       true then <code class="code">load path istwo</code> is a two-dimensional multiarray and is 
+       one dimensioanl otherwise.</p>
+</div>
+</div>
+</body></html>
